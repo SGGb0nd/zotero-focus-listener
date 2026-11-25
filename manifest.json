@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Zotero Focus Listener",
+  "version": "1.0.3",
+  "description": "Move keyboard focus between existing PDF and Zotero Agent panes with Ctrl+h/l.",
+  "applications": {
+    "zotero": {
+      "id": "local-focus-listener@zotero.local",
+      "update_url": "https://zotero-focus-listener.invalid/updates.json",
+      "strict_min_version": "8.0",
+      "strict_max_version": "10.*"
+    }
+  }
+}
